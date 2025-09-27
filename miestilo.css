@@ -1,0 +1,85 @@
+header{ /*Encabezado con fondo de imagen Flower Boy*/
+    background: url("img/imagen.jpeg.jpeg") no-repeat center center/cover;
+    padding: 3%;
+    text-align: center;
+    border-top: 10px solid rgb(255, 202, 40); /*amarillo brillante*/
+    border-bottom: 10px solid rgb(129, 199, 132); /*verde suave*/
+    color: #d1ce0a; /*Texto en blanco sobre la imagen*/
+}
+
+.imagen-inline{ /*Estilo de la imagen principal*/
+    width: 150px; /*ancho de la imagen*/
+    height: auto; /*alto de la imagen se adapta automáticamente*/
+    display: inline-block; /*Se muestra en línea*/
+    margin-right: 10px; /*margen derecho*/
+    margin-top: 5px; /*margen superior*/
+    border-radius: 50%; /*redondeo tipo avatar*/
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3); /*sombra*/
+}
+
+.navbar{ /*Estilo para la barra de navegación*/
+    background-color: rgb(251, 140, 0); /*naranja flower boy*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.btn-nav{ /*Estilo para los botones*/
+    background-color: transparent;
+    color: #fff;  
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-nav:hover{ /*Efecto hover*/
+    background-color: rgb(255, 234, 0); /*amarillo más fuerte*/
+    color: #111;
+    transform: scale(1.1);
+}
+
+.contenedor{
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+    gap: 20px;
+}
+
+.articulo{
+    background-color:orange;
+    flex: 3;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.propaganda{
+    background-color: rgb(129, 199, 132); /*verde nature*/
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    color: #111;
+    font-weight: bold;
+}
+
+.pie{
+    background-color: rgb(79, 195, 247); /*celeste sky*/
+    text-align: center;
+    padding: 15px;
+    color: #111;
+}
+
+.body{
+    margin: 0;
+    background-color: #FFF8E1; /*amarillo pastel suave*/
+}
